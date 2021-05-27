@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2.3.4
       with:
-        token: ${{ secrets.Repo }}
+        token: ${{ secrets.REPO }}
         fetch-depth: 0
     - run: | 
         git config --global user.email "subramanyarao4@gmail.com"
