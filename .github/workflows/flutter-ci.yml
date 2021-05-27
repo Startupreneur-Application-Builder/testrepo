@@ -10,8 +10,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       with:
-        repository: Startupreneur-Application-Builder/basic_app
-        token: ${{ secrets.MY_REPO_SECRET || github.token }}
+        repository: Startupreneur-Application-Builder/testrepo
+        token: ${{ secrets.REPO}}
         fetch-depth: 0
     - run: | 
         git config --global user.email "subramanyarao4@gmail.com"
