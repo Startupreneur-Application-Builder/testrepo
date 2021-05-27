@@ -19,6 +19,3 @@ jobs:
         git remote add upstream https://github.com/Startupreneur-Application-Builder/basic_app.git
         git checkout -b new
         git pull --allow-unrelated-histories upstream master
-        git add .
-        git commit -m "Udpated"
-        git push origin new
