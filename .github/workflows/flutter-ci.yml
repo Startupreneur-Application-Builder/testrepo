@@ -14,4 +14,4 @@ jobs:
         git config --global user.name "imcoffeefreak"
         git remote add upstream https://github.com/Startupreneur-Application-Builder/basic_app.git
         git checkout -b new
-        git pull upstream master
+        git pull --allow-unrelated-histories upstream master
