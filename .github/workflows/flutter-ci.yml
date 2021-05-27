@@ -12,4 +12,6 @@ jobs:
     - run: | 
         git config --global user.email "subramanyarao4@gmail.com"
         git config --global user.name "imcoffeefreak"
-        git clone https://github.com/Startupreneur-Application-Builder/basic_app.git
+        git remote add upstream https://github.com/Startupreneur-Application-Builder/basic_app.git
+        git checkout -b new
+        git pull upstream master
