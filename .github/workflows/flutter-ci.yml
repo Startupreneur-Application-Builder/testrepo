@@ -13,5 +13,6 @@ jobs:
         git config --global user.email "subramanyarao4@gmail.com"
         git config --global user.name "imcoffeefreak"
         git pull --allow-unrelated-histories https://github.com/Startupreneur-Application-Builder/basic_app.git
-        git checkout -b update
+        git add .
+        git commit -m "generated"
         git push
