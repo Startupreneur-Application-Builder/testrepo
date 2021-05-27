@@ -17,5 +17,9 @@ jobs:
         git config --global user.email "subramanyarao4@gmail.com"
         git config --global user.name "imcoffeefreak"
         git remote add upstream https://github.com/Startupreneur-Application-Builder/basic_app.git
+        git remote add origin https://github.com/Startupreneur-Application-Builder/testrepo.git
         git checkout -b new
         git pull --allow-unrelated-histories upstream master
+        git add .
+        git commit -m "Udpated"
+        git push origin new
