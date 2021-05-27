@@ -17,5 +17,6 @@ jobs:
         channel: 'stable'
     - run: flutter create webapp
     - uses: actions/upload-artifact@v1
+      with:
         name: webapp
-        path: webapp/
+        path: .
