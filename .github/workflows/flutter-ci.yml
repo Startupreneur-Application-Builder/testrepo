@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - run: git pull https://github.com/Startupreneur-Application-Builder/basic_app.git
+    - run: git pull --allow-unrelated-histories https://github.com/Startupreneur-Application-Builder/basic_app.git
