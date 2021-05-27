@@ -8,10 +8,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@master
       with:
-        repository: Startupreneur-Application-Builder/testrepo
-        token: ${{ secrets.REPO}}
+        repository: Startupreneur-Application-Builder/basic_app
+        token: ${{ secrets.MY_REPO_SECRET || github.token }}
         fetch-depth: 0
     - run: | 
         git config --global user.email "subramanyarao4@gmail.com"
