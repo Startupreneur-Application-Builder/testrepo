@@ -8,7 +8,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
+    - name: Checkout
+    - uses: actions/checkout@v2.3.4
     - run: | 
         git config --global user.email "subramanyarao4@gmail.com"
         git config --global user.name "imcoffeefreak"
