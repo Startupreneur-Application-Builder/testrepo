@@ -10,6 +10,6 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - run: | 
-    git config --global user.email "subramanyarao4@gmail.com"
-    git config --global user.name "imcoffeefreak"
-    git pull --allow-unrelated-histories https://github.com/Startupreneur-Application-Builder/basic_app.git
+        git config --global user.email "subramanyarao4@gmail.com"
+        git config --global user.name "imcoffeefreak"
+        git pull --allow-unrelated-histories https://github.com/Startupreneur-Application-Builder/basic_app.git
